@@ -20,12 +20,12 @@ body{
 }
 
 .left-section{
-    grid-column: 300px;
+    grid-column: span 1;
     background-color: black ;
 }
 
 .right-section{
-   grid-column: 700px;
+   grid-column: span 1 /span 2;
        background-color: #f7f7f7;
 
 }
